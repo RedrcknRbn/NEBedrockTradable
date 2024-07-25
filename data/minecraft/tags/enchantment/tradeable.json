@@ -9,7 +9,27 @@
       "required": false
     },
     {
-      "id": "enchantplus:pickaxe/spawner_touch",
+      "id": "enchantplus:chestplate/builder_arm",
+      "required": false
+    },
+    {
+      "id": "enchantplus:chestplate/anti_venom",
+      "required": false
+    },
+    {
+      "id": "enchantplus:elytra/armored",
+      "required": false
+    },
+    {
+      "id": "enchantplus:leggings/fast_swim",
+      "required": false
+    },
+    {
+      "id": "enchantplus:boots/step_assist",
+      "required": false
+    },
+    {
+      "id": "enchantplus:mace/striker",
       "required": false
     }
   ],
