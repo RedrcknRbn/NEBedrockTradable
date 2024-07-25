@@ -22,7 +22,7 @@
                         "per_level_above_first": 1
                     },
                     "min_duration": 3.25,
-                    "min_amplifier": 2,
+                    "min_amplifier": 1,
                     "to_apply": "minecraft:wither"
                 },
                 "requirements": {
@@ -52,7 +52,7 @@
                         "per_level_above_first": 1
                     },
                     "min_duration": 3.25,
-                    "min_amplifier": 2,
+                    "min_amplifier": 1,
                     "to_apply": "minecraft:poison"
                 },
                 "requirements": {

@@ -28,7 +28,7 @@
                         {
                             "type": "minecraft:spawn_particles",
                             "particle": {
-                                "type": "minecraft:wax_on"
+                                "type": "minecraft:sonic_boom"
                             },
                             "horizontal_position": {
                                 "type": "in_bounding_box"
@@ -48,7 +48,7 @@
                         },
                         {
                             "type": "minecraft:play_sound",
-                            "sound": "minecraft:entity.breeze.death",
+                            "sound": "minecraft:entity.warden.sonic_boom",
                             "volume": 0.1,
                             "pitch": 0.75
                         },
