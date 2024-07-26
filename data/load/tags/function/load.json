@@ -1,5 +1,6 @@
 {
     "values": [
-		"enchantplus:load"
+		"enchantplus:load",
+		"enchantplus_extensions:load"
 	]
 }

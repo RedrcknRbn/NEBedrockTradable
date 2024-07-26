@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "enchantplus:main"
+        "enchantplus:main",
+        "enchantplus_extensions:spawners/process"
     ]
 }

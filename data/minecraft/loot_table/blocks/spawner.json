@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spawner"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:copy_custom_data",
+                    "source": "block_entity",
+                    "ops": [
+                        {
+                            "source": "SpawnData.entity.id",
+                            "target": "EnchantPlusExt.type",
+                            "op": "replace"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{SuppressExperience:1b, EnchantPlusExt: {hasData:1b}}"
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "(Contains entity)"
+                        }
+                    ],
+                    "mode": "append"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:pickaxe/spawner_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:blocks/spawner"
+}
