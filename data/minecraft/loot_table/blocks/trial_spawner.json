@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trial_spawner"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:copy_custom_data",
+                    "source": "block_entity",
+                    "ops": [
+                        {
+                            "source": "required_player_range",
+                            "target": "EnchantPlusExt.blockData.required_player_range",
+                            "op": "replace"
+                        },
+                        {
+                            "source": "target_cooldown_length",
+                            "target": "EnchantPlusExt.blockData.target_cooldown_length",
+                            "op": "replace"
+                        },
+                        {
+                            "source": "normal_config",
+                            "target": "EnchantPlusExt.blockData.normal_config",
+                            "op": "replace"
+                        },
+                        {
+                            "source": "ominous_config",
+                            "target": "EnchantPlusExt.blockData.ominous_config",
+                            "op": "replace"
+                        },
+                        {
+                            "source": "cooldown_ends_at",
+                            "target": "EnchantPlusExt.blockData.cooldown_ends_at",
+                            "op": "replace"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:copy_state",
+                    "block": "minecraft:trial_spawner",
+                    "properties": [
+                        "ominous"
+                    ]
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{SuppressExperience:1b, EnchantPlusExt: {hasData:1b}}"
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "(Contains entity)"
+                        }
+                    ],
+                    "mode": "append"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantplus:pickaxe/spawner_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:blocks/trial_spawner"
+}
