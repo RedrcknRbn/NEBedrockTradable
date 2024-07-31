@@ -104,17 +104,6 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "enchantplus:trident/magical_water"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
               "decoration": "minecraft:red_x",
               "function": "minecraft:exploration_map",
               "skip_existing_chunks": false,

@@ -6,27 +6,11 @@
             "required": false
         },
         {
-            "id": "enchantplus:boots/lava_walker",
-            "required": false
-        },
-        {
             "id": "enchantplus:boots/step_assist",
             "required": false
         },
         {
-            "id": "enchantplus:bow/accuracy_shot",
-            "required": false
-        },
-        {
-            "id": "enchantplus:bow/explosive_arrow",
-            "required": false
-        },
-        {
             "id": "enchantplus:chestplate/anti_venom",
-            "required": false
-        },
-        {
-            "id": "enchantplus:chestplate/lifeplus",
             "required": false
         },
         {
@@ -43,10 +27,6 @@
         },
         {
             "id": "enchantplus:sword/attack_speed",
-            "required": false
-        },
-        {
-            "id": "enchantplus:sword/life_steal",
             "required": false
         }
     ]

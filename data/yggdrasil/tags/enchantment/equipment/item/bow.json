@@ -6,10 +6,6 @@
             "required": false
         },
         {
-            "id": "enchantplus:bow/echo_shot",
-            "required": false
-        },
-        {
             "id": "enchantplus:bow/storm_arrow",
             "required": false
         }

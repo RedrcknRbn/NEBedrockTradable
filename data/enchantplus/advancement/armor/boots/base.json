@@ -36,22 +36,6 @@
         ]
       }
     },
-    "got_lava_walker": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:boots/lava_walker"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
     "got_step_assist": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -72,9 +56,6 @@
   "requirements": [
     [
       "got_agility"
-    ],
-    [
-      "got_lava_walker"
     ],
     [
       "got_step_assist"
