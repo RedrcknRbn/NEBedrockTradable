@@ -17,7 +17,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "enchantplus:tools/pickaxe/vein_miner",
+  "parent": "enchantplus:tools/pickaxe/base",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -20,22 +20,6 @@
   },
   "parent": "enchantplus:tools/start",
   "criteria": {
-    "vein_miner": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "enchantplus:pickaxe/vein_miner"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
     "spawner_touch": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -70,9 +54,6 @@
     }
   },
   "requirements": [
-    [
-      "vein_miner"
-    ],
     [
       "spawner_touch"
     ],
