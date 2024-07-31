@@ -31,6 +31,14 @@
     {
       "id": "enchantplus:mace/striker",
       "required": false
+    },
+    {
+      "id": "enchantplus:pickaxe/spawner_touch",
+      "required": false
+    },
+    {
+      "id": "enchantplus:helmet/auto_feed",
+      "required": false
     }
   ],
   "replace": false
