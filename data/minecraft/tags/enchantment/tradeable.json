@@ -39,6 +39,10 @@
     {
       "id": "enchantplus:helmet/auto_feed",
       "required": false
+    },
+    {
+      "id": "enchantplus:bow/breezing_arrow",
+      "required": false
     }
   ],
   "replace": false
